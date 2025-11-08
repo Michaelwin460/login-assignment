@@ -1,0 +1,130 @@
+/* Reset & Base */
+body {
+  background: #f1f5f9;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Form Container */
+.form-wrapper {
+  width: 380px;
+  margin: 120px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Title */
+.form-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e3a8a;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 11px 10px;
+  margin-top: 6px;
+  font-size: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #f8fafc;
+  transition: 0.2s;
+}
+
+input:focus {
+  background: #ffffff;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+  outline: none;
+}
+
+/* Error Messages */
+.error {
+  margin-top: 4px;
+  color: #dc2626;
+  font-size: 13px;
+}
+
+.top-error {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  border-radius: 6px;
+  color: #b91c1c;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Buttons */
+.primary-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 28px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.primary-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.primary-btn:active {
+  transform: scale(0.97);
+}
+
+/* Welcome Page */
+.welcome-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.welcome-email {
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.welcome-container {
+  text-align: center;
+}
+
+.welcome-text {
+  color: #475569;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
