@@ -9,7 +9,7 @@ The `.env` file is already included inside the `server` folder as required.
 
 Navigate to the server folder:
 
-cd client
+cd server
 npm install
 node index.js
 
